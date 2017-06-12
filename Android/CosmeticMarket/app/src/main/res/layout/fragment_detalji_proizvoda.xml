@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+android:padding="5dp"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_light_background"
+    android:layout_height="match_parent"
+
+
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/scroll"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+
+            >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+
+                    android:background="@color/cardview_light_background"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+
+
+                    android:id="@+id/imageDetalji"
+
+
+
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/imageDetalji"
+                    android:orientation="vertical">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="10dp">
+                        />
+
+
+                        <TextView
+                            android:id="@+id/tvCijena"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="top"
+                            android:text="Cijena:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="35sp" />
+
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/tvSifra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/tvOcjenaDetalji"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:layout_marginTop="10dp"
+                        android:text="Sifra"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tvOpis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/tvOcjenaDetalji"
+                        android:layout_marginBottom="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Opis"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_margin="10dp"
+                    android:background="#F0000000"></View>
+
+                <RatingBar
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    style="@style/Widget.AppCompat.RatingBar"
+                    android:id="@+id/ratingBar"
+                    android:numStars="5"
+                    android:backgroundTint="@color/colorAccent"
+
+                    android:stepSize="0.1"
+
+
+
+                    />
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+
+    android:textAlignment="center"
+    android:text="komentari"
+    android:layout_height="wrap_content" />
+
+
+
+                <ListView
+                    android:layout_margin="10dp"
+                    android:id="@+id/listview_komentari"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp">
+
+
+                </ListView>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvNaziv"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:layout_centerHorizontal="true"
+       android:textStyle="bold"
+        android:text="Naziv:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+    <Button
+
+
+
+        android:backgroundTint="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNaziv"
+        android:id="@+id/btnKupi"
+        android:layout_width="40dp"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:textAlignment="inherit"
+        android:layout_marginRight="10dp"
+        android:text="Kupi"
+
+        />
+</RelativeLayout>

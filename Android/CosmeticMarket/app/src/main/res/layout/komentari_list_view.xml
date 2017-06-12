@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/relativLayoutComments">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUsernameKomentara"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+ android:layout_marginTop="5dp"
+            android:text="username"
+
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Komentar"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/tvUsernameKomentara"
+            android:id="@+id/tvKomentar"
+android:layout_marginBottom="5dp"
+            android:singleLine="false"
+
+
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+</RelativeLayout>

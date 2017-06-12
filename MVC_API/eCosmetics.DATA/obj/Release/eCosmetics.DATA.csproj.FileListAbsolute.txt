@@ -1,0 +1,10 @@
+H:\Android\SeminarskiRadovi\eCosmetics\eCosmetics.DATA\bin\Release\eCosmetics.DATA.dll
+H:\Android\SeminarskiRadovi\eCosmetics\eCosmetics.DATA\bin\Release\eCosmetics.DATA.pdb
+H:\Android\SeminarskiRadovi\eCosmetics\eCosmetics.DATA\obj\Release\eCosmetics.DATA.csprojResolveAssemblyReference.cache
+H:\Android\SeminarskiRadovi\eCosmetics\eCosmetics.DATA\obj\Release\eCosmetics.DATA.dll
+H:\Android\SeminarskiRadovi\eCosmetics\eCosmetics.DATA\obj\Release\eCosmetics.DATA.pdb
+C:\Users\Developer\Desktop\Mirza\eCosmetics\eCosmetics.DATA\bin\Release\eCosmetics.DATA.dll
+C:\Users\Developer\Desktop\Mirza\eCosmetics\eCosmetics.DATA\bin\Release\eCosmetics.DATA.pdb
+C:\Users\Developer\Desktop\Mirza\eCosmetics\eCosmetics.DATA\obj\Release\eCosmetics.DATA.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\Mirza\eCosmetics\eCosmetics.DATA\obj\Release\eCosmetics.DATA.dll
+C:\Users\Developer\Desktop\Mirza\eCosmetics\eCosmetics.DATA\obj\Release\eCosmetics.DATA.pdb
